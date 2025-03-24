@@ -47,8 +47,8 @@ I enjoy **tinkering with GNU/Linux**, listening to music, reading books, and pla
 I also watch anime, read manga & light novels, and play games like:  
 
 - 🎮 **[Warframe](https://store.steampowered.com/app/230410/Warframe/)**  
-- 🎮 **[Spiritfarer](https://store.steampowered.com/app/972660/Spiritfarer_Farewell_Edition/)**  
-- 🎮 **[Sundered](https://store.steampowered.com/app/535480/Sundered_Eldritch_Edition/)**  
+- 🎮 **[Spiritfarer®: Farewell Edition](https://store.steampowered.com/app/972660/Spiritfarer_Farewell_Edition/)**  
+- 🎮 **[Sundered®: Eldritch Edition](https://store.steampowered.com/app/535480/Sundered_Eldritch_Edition/)**  
 
 Feel free to explore the navigation bar for more details!  
 
