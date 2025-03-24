@@ -2,96 +2,110 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Prathamesh Dhake
     - name: Languages
-      value: English, German
+      value: English, Hindi, Marathi
+
+# - title: Certifications
+#   type: time_table
+#   contents:
+#     - title: Certified in Cybersecurity (CC)
+#       institution: Boston University Metroplitan College, Boston, USA
+#       year: 2025
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MS in Computer Science
+      institution: Boston University Metroplitan College, Boston, USA
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Key Courses Taken.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Operating Systems, Network Security, Computer Networks, Cybersecurity, Cryptography, 
+    - title: B.Tech. in Electrical Engineering
+      institution: IIT Bombay, Powai, India
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - title: Key Courses Taken.
+          contents:
+            - Advanced Network Security, Principles of Data and System Security, Communication Networks, Linear Algebra, Topics in Cryptology
+
+
+- title: Skills
+  type: list
+  contents:
+    - "<u>Programming Languages:</u> Python, C++, Bash Scripting, R, Rust, MATLAB"
+    - "<u>Frameworks & Technologies:</u> LaTeX, Git, SageMath, Systemd, Docker"
+    - "<u>Security Tools:</u> Wireshark, Autopsy, Metasploit, nmap, Qualys, Splunk"
+    - "<u>Operating Systems:</u> Linux, Windows, MacOS"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer Intern
+      institution: Coupa Software, Remote
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Gained a solid understanding of gem sets and the management of Ruby on Rails applications.
+        - Upgraded an application across multiple Ruby versions while ensuring gemset compatibility.
+        - Migrated a Docker-based Invoice Compliance Service to a cloud-based CCP Kubernetes  
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+- title: BTech Project
+  type: time_table
+  contents: 
+    - title: Cryptanalysis of Ciphers by Black Box Approach to Local Inversion
+      year: 2022-2023
+      description: 
+        - The project aimed to analyze the computational efforts to recover the key using a new black box approach in cryptography. We analyzed stream ciphers such as RC4 and block ciphers such as AES.
+        - Calculated the Linear Complexity of various bit sequences multiple times to compute the minimal polynomial for key retrieval.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Clipboard History On Linux
+      year: 2025
+      description: 
+        - An open-source application to record text-based clipboard contents persisting through boots, for Wayland-based systems on Linux.
+        - Set-Up a custom systemd script for launching the application, witht he clipbaord being toggleable using certain key combinations.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Speeding up Scalar Multiplication over Elliptic Curves
+      year: 2023
+      description:
+        - Designed and implemented a custom secure data type for handling cryptographic parameters on NIST P-Curves.
+        - Optimized ECC operations by developing parallel processing algorithms using Numba and NumPy, with comprehensive performance analysis via Scalene.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Security for the Internet of Things
+      year: 2022
+      description:
+        - Analyzed multi-layer security protocols and communication vulnerabilities in IoT ecosystems, focusing on encryption implementation challenges.
+        - Evaluated resource constraints for implementing Elliptic Curve Cryptography in IoT environments, proposing optimization techniques for secure communications.
+
+    - title: Self-Synchronizing Stream Cipher Analysis
+      year: 2021
+      description:
+        - Developed custom state update functions and constructed reduced analogs of self-synchronizing ciphers to test cryptographic strength.
+        - Utilized SageMath to conduct linear complexity profiling across multiple initialization vectors, identifying potential weaknesses in stream cipher implementations.
+
+    - title: Practical Implementation of ElGamal and RSA Cryptosystems
+      year: 2024 
+      description:
+        - Engineered secure implementations of ElGamal and RSA algorithms with proper key generation, encryption, and decryption capabilities.
+        - Executed comprehensive unit testing with near-complete code coverage, including simulation of various attack scenarios to verify cryptographic integrity.
+
+    - title: Comparative Study of OS Kernel Random Number Generators
+      year: 2024
+      description:
+        - Conducted security analysis of cryptographically secure random number generation implementations across Windows, Linux, and macOS kernels.
+        - Evaluated entropy sources and seeding mechanisms critical to system-wide security, documenting improvements in modern kernel RNG designs.
+
+    - title: Investigation of Spectre-Class Side-Channel Attacks and Linux Kernel Mitigations
+      year: 2023
+      description:
+        - Analyzed side-channel attack vectors alongside Linux kernel mitigation techniques, including kernel page-table isolation and retpoline implementations.
+        - Demonstrated a practical proof-of-concept for Spectre v2 vulnerability exploitation in Linux environments, documenting security implications.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+      - "<u>Hobbies:</u> Reading Books, Listening to Music, Going on Walks"
