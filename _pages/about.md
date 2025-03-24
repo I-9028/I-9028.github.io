@@ -52,5 +52,4 @@ I also watch anime, read manga & light novels, and play games like:
 
 Feel free to explore the navigation bar for more details!  
 
-
-
+<b> Website is still in progress. Please check back later.
