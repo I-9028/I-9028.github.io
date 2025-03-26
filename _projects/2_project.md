@@ -1,81 +1,118 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: ClipboardHistory on Linux
+description:
+img: 
 importance: 2
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Motivation and Overview
+I built this as a side project for a utility I use often on Windows but couldn't find one for Linux so I decided to write one. I thought it would serve as a good practice. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project implements a Clipboard History utility for Linux, allowing users to track and manage their clipboard contents efficiently. The utility provides a simple way to maintain a history of copied items and retrieve them as needed.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Features
+This application provides the following featues:
+- Track clipboard contents across multiple copy operations
+- Easy retrieval of previously copied items
+- Lightweight and minimal resource usage
+- Simple command-line interface
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**⚠️ IMPORTANT:** This project **only supports text content**. It does not store or process images, rich text, or files.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The project is PEP8 and Shellcheck compliant as much as possible. For exaple, the only PEP8 errors that might arise are E501 errors.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Technical Implementation
+The UI in Python3 was handled by the `gi` module, `evdev` was used for Keyboard Events.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The PEP8 Compliance was checked using [AutoPEP8](https://packagecontrol.io/packages/AutoPEP8)  and POSIX Compliance for the shell scripts by using [Shellcheck](https://github.com/koalaman/shellcheck).
 
-{% raw %}
+### File hierarchy:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+    ├── HotkeyHandler
+    │   ├── HotkeyHandler_Wayland.py
+    │   └── keyconfig.json
+    ├── LICENSE
+    ├── README.md
+    ├── WaylandCheck.sh
+    ├── WaylandClipboard.py
+    ├── WaylandStartup.sh
+    ├── clipboardStorage.py
+    └── removeService.sh
 
-{% endraw %}
+The Clipboard History persists between boots, and can be found at `/home/$USER/.config/clipboard_history.json`. You can change this in the `clipboardStorage.py` and `WaylandClipboard`file. 
+
+If you wish to read the JSON directly, I would recommend using the `json.tool` tool in Python, you can do so as `python3 -m json.tool file.json`
+
+## Installation
+### Prerequisites
+The application requires a **Wayland** display., and having `systemd`
+as your **init** system.
+Other pre-requisites are:
+* `wl-clipboard`
+* Python3
+	* `venv`
+	* `evdev`
+
+The `WaylandCheck.sh` script checks for these pre-requisites and if not found, installs them.
+### How to Install
+1. Clone the repository using 
+	`git clone https://github.com/I-9028/ClipboardHistoryonLinux.git`
+	
+	Enter into the repo folder by `cd ClipboardHistoryonLinux/`
+	
+3. Assign executable permissions to the "WaylandCheck.sh" script using
+
+    `chmod +x WaylandCheck.sh`
+
+4. It checks if you have all the required dependencies, and creates a Python Virtual Environment. Run it as follows:
+
+    `sudo ./WaylandCheck.sh`
+    
+5. Then its the startup script for the application itself,
+
+    ``./WaylandStartup.sh``
+    
+	It starts the service and lets you know if you need to reboot. If it asks you to reboot, please **do so**. For some reason, logging out and re-logging in does not solve the issue.
+For this script to work,  the user must be in the *input* group, wich is not very secure. I intend to look for a workaround.
+ 
+4. Monitor the status of the service using
+
+    `systemctl --user status ClipboardHistory.service`
+
+### Uninstallation
+If you simply wish to stop the service and remove the Configuration FIles generated, run the `removeService.sh` script as follows:
+
+    ``./removeService.sh``
+    
+This **does not** remove the Virtual Environment. To remove the Virtual Environment, run `sudo rm -rf ClipboardVenv/`
+
+## Usage
+By default, the key-bindings are set to `LeftAlt + V`, these can be changed by modifying the `HotkeyHandler/config.json` file. 
+
+- Copy items as usual
+- Use Hotkey COmbination t pull the window up.
+    - View clipboard history
+    - Select and paste previous items
+    - Clear clipboard history
+
+        {% include figure.liquid loading="eager" path="assets/img/ClipboardHistory/AppDemo.png" title="App Demo" class="img-fluid rounded z-depth-1" %}
+
+## Limitations and Potential Improvements
+- Current implementation may have platform-specific constraints
+- Future enhancements could include:
+  - GUI interface
+  - Advanced filtering
+  - Persistent storage across sessions
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+Prathamesh D. (Me)
+- GitHub: [@I-9028](https://github.com/I-9028)
+- Project Link: [https://github.com/I-9028/ClipboardHistoryonLinux](https://github.com/I-9028/ClipboardHistoryonLinux)
