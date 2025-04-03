@@ -439,6 +439,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-finding-a-solution-for-a290250-for-n-1",
+          title: 'Finding a Solution for A290250 for n=1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{
         id: 'social-email',
         title: 'email',
