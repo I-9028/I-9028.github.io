@@ -30,28 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "dropdown-books",
-              title: "Books",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/hobbies/books";
-              },
-            },{id: "dropdown-music",
-              title: "Music",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/hobbies/music";
-              },
-            },{id: "dropdown-games",
-              title: "Games",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/hobbies/games";
-              },
-            },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
         
