@@ -1,15 +1,12 @@
 ---
 layout: page
 title: Hobbies
-nav: true
+nav: false
 nav_order: 8
-dropdown: true
+dropdown: false
 children:
   - title: Books
     permalink: /hobbies/books
-  - title: divider
-  - title: Music
-    permalink: /hobbies/music
   - title: divider
   - title: Games
     permalink: /hobbies/games
