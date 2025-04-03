@@ -83,6 +83,7 @@
     },
     {
       "name": "Robustness Analysis of AI Models Against Data Pollution",
+      "startDate": "",
       "endDate": "2025",
       "highlights": [
         "Analyzed the impact of data pollution on a pre-trained model by introducing noise and measuring performance degradation.",
