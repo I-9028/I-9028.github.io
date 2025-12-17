@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "Some projects I&#39;ve worked on, over the years.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -30,31 +30,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "projects-cryptanalysis-of-symmetric-encryption-algorithms",
+        },{id: "projects-finding-a-solution-for-a290250-for-n-1",
+          title: 'Finding a Solution for A290250 for n=1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/A290250/";
+            },},{id: "projects-cryptanalysis-of-symmetric-encryption-algorithms",
           title: 'Cryptanalysis of Symmetric Encryption Algorithms',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/BlackBoxCryptanalysis/";
             },},{id: "projects-clipboardhistory-on-linux",
           title: 'ClipboardHistory on Linux',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-practical-implementation-of-elgamal-and-rsa-cryptosystems",
-          title: 'Practical Implementation of ElGamal and RSA Cryptosystems',
+              window.location.href = "/projects/ClipboardHistory/";
+            },},{id: "projects-cloud-storage-integrity",
+          title: 'Cloud Storage Integrity',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/CloudStorageIntegrity/";
             },},{id: "projects-speeding-up-scalar-multiplication-over-elliptic-curves",
           title: 'Speeding Up Scalar Multiplication Over Elliptic Curves',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-finding-a-solution-for-a290250-for-n-1",
-          title: 'Finding a Solution for A290250 for n=1',
+              window.location.href = "/projects/ECCSpeedup/";
+            },},{id: "projects-practical-implementation-of-elgamal-and-rsa-cryptosystems",
+          title: 'Practical Implementation of ElGamal and RSA Cryptosystems',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/RSAElGamal/";
             },},{
         id: 'social-email',
         title: 'email',
