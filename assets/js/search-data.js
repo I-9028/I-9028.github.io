@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
+        },{id: "nav-books",
+          title: "Books",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Books/";
+          },
         },{id: "projects-finding-a-solution-for-a290250-for-n-1",
           title: 'Finding a Solution for A290250 for n=1',
           description: "",
