@@ -29,11 +29,13 @@ latest_posts:
 
 Hello!
 
-I am a cybersecurity enthusiast from India, currently pursuing my **Master's in Computer Science** at **Boston University Metropolitan College**, specializing in **security**. My interests lie in **Linux, Network Security, Security Protocols, and Cryptographic Algorithms**, among others.  
+I am a cybersecurity enthusiast from India. I recently graduated from **Boston University Metropolitan College** with a **Master's in Computer Science** degree, specializing in **security**. My interests lie in **Linux, Security Protocols, and Cryptographic Algorithms**, among others.  
+
+I wish to investigate **_where, when, why and how, after implementation in real systems do our theoretical security guarantees break?_**  
 
 I hold a **Bachelor’s degree in Electrical Engineering** from **IIT Bombay**, where I graduated with **Honors**. During my time there, I worked under the guidance of **[Dr. Virendra Sule](https://iitb.irins.org/profile/11184)** on **Black Box Techniques for Cryptographic Inversions**.  
 
-I recently earned the **Certified in Cybersecurity (CC) Certification** from **ISC2** and am currently preparing for the **[Red Hat Certified System Administrator (RHCSA)](https://www.redhat.com/en/services/certification/rhcsa)** certification, along with **[Qualys Vulnerability Management Foundation](https://www.qualys.com/training/course/vulnerability-management-foundation/)** and other security certifications.  
+
 
 ## Outside of Work  
 When I need a break, you'll often find me **exploring Boston’s historic trails**, such as near the **Reservoir** or **Boston Commons**. I believe in balancing physical and mental exercises.  
