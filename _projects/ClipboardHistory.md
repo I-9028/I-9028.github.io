@@ -3,8 +3,8 @@ layout: page
 title: ClipboardHistory on Linux
 description:
 img: 
-importance: 2
-category: work
+importance: 1
+category: Projects
 related_publications: false
 ---
 

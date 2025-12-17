@@ -4,7 +4,7 @@ title: Cryptanalysis of Symmetric Encryption Algorithms
 description: 
 img: 
 importance: 1
-category: work
+category: Thesis
 related_publications: false
 ---
 

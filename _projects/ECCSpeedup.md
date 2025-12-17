@@ -3,8 +3,8 @@ layout: page
 title: Speeding Up Scalar Multiplication Over Elliptic Curves
 description: 
 img:
-importance: 4
-category: work
+importance: 3
+category: Projects
 ---
 
 
