@@ -22,15 +22,22 @@
       description:
         - title: Key Courses Taken.
           contents:
-            - Operating Systems, Network Security, Computer Networks, Cybersecurity, Cryptography, 
+            -  Cryptography
+            -  Operating Systems, Network Security
+            -  Digital Forensics
+            -  Computer Networks
+            -  Enterprise Cybersecurity Management
     - title: B.Tech. in Electrical Engineering
-      institution: IIT Bombay, Powai, India
+      institution: IIT Bombay, Mumbai, India
       year: 2023
       description:
         - title: Key Courses Taken.
           contents:
-            - Advanced Network Security, Principles of Data and System Security, Communication Networks, Linear Algebra, Topics in Cryptology
-
+            - Advanced Network Security
+            -  Principles of Data and System Security
+            -  Communication Networks
+            -  Linear Algebra
+            -  Topics in Cryptology, Introduction to Machine Learning
 
 - title: Skills
   type: list
@@ -43,6 +50,18 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Data Science Fellow
+      institution: Chicago Education Advocacy Cooperative,  Boston, MA
+      year: Sep 2025 --
+      description: Architect secure platforms that foster collaboration among students and educators while safeguarding sensitive data and promoting cybersecurity awareness.
+
+    - title: IT Systems and Security Assistant
+      institution: Structcon Designs Pvt. Ltd.
+      year: 2023
+      description:
+        - Strengthened security across a forty-plus workstation environment by identifying outdated software and misconfigured access, deploying patches, improving file security, delivering staff training on core security practices, and supporting secure VPN access for field engineers.
+        - Implemented automated backup workflows for about two terabytes of project files and CAD drawings, and performed monthly recovery tests to ensure data integrity and reliable restoration.
+
     - title: Software Engineer Intern
       institution: Coupa Software, Remote
       year: 2022
@@ -104,6 +123,15 @@
       description:
         - Analyzed side-channel attack vectors alongside Linux kernel mitigation techniques, including kernel page-table isolation and retpoline implementations.
         - Demonstrated a practical proof-of-concept for Spectre v2 vulnerability exploitation in Linux environments, documenting security implications.
+
+- title: Outreach
+  type: time_table
+  contents:
+    - title: Organizer, International Micromouse Competition
+      institution: TechFest | IIT Bombay
+      year: Dec 2019
+      description:
+        - Part of an 8-member team organizing the International Micromouse Challenge at TechFest IIT Bombay
 
 - title: Other Interests
   type: list

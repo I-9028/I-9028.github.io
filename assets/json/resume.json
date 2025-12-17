@@ -1,4 +1,4 @@
-{
+    {
   "basics": {
     "name": "Prathamesh Dhake",
     "url": "https://i-9028.github.io/",
@@ -57,12 +57,37 @@
   ],
   "work": [
     {
+      "name": "Chicago Education Advocacy Cooperative",
+      "position": "Data Science Fellow",
+      "location": "Remote",
+      "startDate": "",
+      "endDate": "Sep 2025 --",
+      "summary": "",
+      "highlights": [
+        "Architect secure platforms that foster collaboration among students and educators while safeguarding sensitive data and promoting cybersecurity awareness."
+      ]
+    }
+
+    {
+      "name": "Structcon Designs Pvt. Ltd.",
+      "position": "IT Systems and Security Assistant",
+      "location": "Mumbai, India",
+      "startDate": "Jan 2023",
+      "endDate": "Dec 2023",
+      "summary": "",
+      "highlights": [
+        "Strengthened security across a forty-plus workstation environment by identifying outdated software and misconfigured access, deploying patches, improving file security, delivering staff training on core security practices, and supporting secure VPN access for field engineers",
+        "Implemented automated backup workflows for about two terabytes of project files and CAD drawings, and performed monthly recovery tests to ensure data integrity and reliable restoration."
+      ]
+    }
+
+    {
       "name": "Coupa Software",
       "position": "Software Engineer Intern",
       "location": "Remote",
       "startDate": "",
       "endDate": "2022",
-      "summary": "Worked on application upgrades and cloud migration.",
+      "summary": "",
       "highlights": [
         "Gained a solid understanding of gem sets and the management of Ruby on Rails applications.",
         "Upgraded an application across multiple Ruby versions while ensuring gemset compatibility.",
@@ -81,16 +106,7 @@
         "Calculated the Linear Complexity of various bit sequences for key retrieval."
       ]
     },
-    {
-      "name": "Robustness Analysis of AI Models Against Data Pollution",
-      "startDate": "",
-      "endDate": "2025",
-      "highlights": [
-        "Analyzed the impact of data pollution on a pre-trained model by introducing noise and measuring performance degradation.",
-        "Evaluated model robustness by testing accuracy on clean vs. polluted datasets, exploring adversarial resilience.",
-        "Optimized model performance by fine-tuning on noisy data and comparing results against a clean validation set."
-      ]
-    },
+
     {
       "name": "Clipboard History On Linux",
       "startDate": "",
