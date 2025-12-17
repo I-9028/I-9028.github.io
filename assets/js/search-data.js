@@ -74,7 +74,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/prathamesh-dhake-9b01ba191", "_blank");
+          window.open("https://www.linkedin.com/in/prathamesh-dhake", "_blank");
         },
       },{
         id: 'social-stackoverflow',
