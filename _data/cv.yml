@@ -17,7 +17,7 @@
   type: time_table
   contents:
     - title: MS in Computer Science
-      institution: Boston University Metroplitan College, Boston, USA
+      institution: Boston University Metropolitan College, Boston, USA
       year: 2025
       description:
         - title: Key Courses Taken.
@@ -115,14 +115,14 @@
     - title: Comparative Study of OS Kernel Random Number Generators
       year: 2024
       description:
-        - Conducted security analysis of cryptographically secure random number generation implementations across Windows, Linux, and macOS kernels.
-        - Evaluated entropy sources and seeding mechanisms critical to system-wide security, documenting improvements in modern kernel RNG designs.
+        - Compared RNG design in the Windows, Linux, and macOS kernels.
+        - Covered entropy sources, ChaCha20, Fortuna, and the security role of RNG.
 
-    - title: Investigation of Spectre-Class Side-Channel Attacks and Linux Kernel Mitigations
+    - title: Analysis of Spectre-Class Side-Channel Attacks
       year: 2023
       description:
-        - Analyzed side-channel attack vectors alongside Linux kernel mitigation techniques, including kernel page-table isolation and retpoline implementations.
-        - Demonstrated a practical proof-of-concept for Spectre v2 vulnerability exploitation in Linux environments, documenting security implications.
+        - Surveyed speculative-execution side-channel attacks and their kernel mitigations.
+        - Reproduced a public proof-of-concept on an unpatched Linux kernel (Ubuntu 20.04, kernel 5.15).
 
 - title: Outreach
   type: time_table
