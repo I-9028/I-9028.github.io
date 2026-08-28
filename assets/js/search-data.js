@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-contact",
-          title: "Contact",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/contact/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -37,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-books",
-          title: "Books",
+        },{id: "nav-contact",
+          title: "Contact",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Books/";
+            window.location.href = "/contact/";
           },
         },{id: "projects-finding-a-solution-for-a290250-for-n-1",
           title: 'Finding a Solution for A290250 for n=1',
@@ -69,11 +62,21 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ECCSpeedup/";
+            },},{id: "projects-a-study-of-os-kernel-random-number-generators",
+          title: 'A Study of OS Kernel Random Number Generators',
+          description: "A comparative study of random number generation in the Windows, Linux, and macOS kernels, and its role in system security.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/KernelRNG/";
             },},{id: "projects-practical-implementation-of-elgamal-and-rsa-cryptosystems",
           title: 'Practical Implementation of ElGamal and RSA Cryptosystems',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/RSAElGamal/";
+            },},{id: "projects-analysis-of-spectre-class-side-channel-attacks",
+          title: 'Analysis of Spectre-Class Side-Channel Attacks',
+          description: "A study of speculative-execution side-channel attacks, their variants, kernel mitigations, and a reproduction of a public proof-of-concept.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Spectre/";
             },},{
         id: 'social-email',
         title: 'email',
