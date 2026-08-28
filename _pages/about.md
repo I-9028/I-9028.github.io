@@ -29,7 +29,7 @@ latest_posts:
 
 Hello!
 
-I am a cybersecurity enthusiast from India. I recently graduated from **Boston University Metropolitan College** with a **Master's in Computer Science** degree, specializing in **security**. My interests lie in **Linux, Security Protocols, and Cryptographic Algorithms**, among others.  
+I am a cybersecurity enthusiast from India. I graduated from **Boston University Metropolitan College** in 2025 with a **Master's in Computer Science** degree, specializing in **security**. My interests lie in **Linux, Security Protocols, and Cryptographic Algorithms**, among others.  
 
 I wish to investigate **_where, when, why and how, after implementation in real systems do our theoretical security guarantees break?_**  
 
@@ -38,9 +38,9 @@ I hold a **Bachelor’s degree in Electrical Engineering** from **IIT Bombay**, 
 
 
 ## Outside of Work  
-When I need a break, you'll often find me **exploring Boston’s historic trails**, such as near the **Reservoir** or **Boston Commons**. I believe in balancing physical and mental exercises.  
+When I need a break, you'll often find me **exploring Boston’s historic trails**, such as near the **Reservoir** or **Boston Common**. I believe in balancing physical and mental exercises.  
 
-## Hobbies & Interests  
+<!--## Hobbies & Interests  
 I enjoy **tinkering with GNU/Linux**, listening to music, reading books, and playing indie games. Some books I’ve read include:  
 
 - 📖 **[Countdown to Zero Day](https://www.goodreads.com/book/show/18465875-countdown-to-zero-day)** – *Kim Zetter*  
@@ -50,8 +50,6 @@ I also watch anime, read manga & light novels, and play games like:
 
 - 🎮 **[Warframe](https://store.steampowered.com/app/230410/Warframe/)**  
 - 🎮 **[Spiritfarer®: Farewell Edition](https://store.steampowered.com/app/972660/Spiritfarer_Farewell_Edition/)**  
-- 🎮 **[Sundered®: Eldritch Edition](https://store.steampowered.com/app/535480/Sundered_Eldritch_Edition/)**  
+- 🎮 **[Sundered®: Eldritch Edition](https://store.steampowered.com/app/535480/Sundered_Eldritch_Edition/)**  -->
 
 Feel free to explore the navigation bar for more details!  
-
-<b> Website is still in progress. Please check back later.

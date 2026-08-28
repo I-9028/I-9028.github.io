@@ -2,11 +2,11 @@
 layout: page
 title: Books
 permalink: /Books/
-nav: true
+nav: false
 nav_order: 5
 dropdown: false
 search_exclude: true
-nav: true
+nav: false
 
 ---
 
@@ -21,7 +21,8 @@ I recently saw a friend's reading list, decided to add a few I've read. Do let m
 - _Animal Farm_ by _George Orwell_
 - _Animorphs_ by _K. A. Applegate_
 - _Harry Potter_ by _JK Rowling_
-- _The Day of the Triffids_ by _John Wyndham_
 - _Macbeth_ by _William Shakespeare_
 - _Nineteen Eighty-Four_ by _George Orwell_
+- _Project Hail Mary_ by _Andy Weir_
+- _The Day of the Triffids_ by _John Wyndham_
 - _The Tempest_ by _William Shakespeare_
